@@ -1,0 +1,53 @@
+body {
+    font-family: 'Roboto', 'Arial';
+    background-color: rgb(25, 25, 25);
+}
+
+header {
+    color: white;
+    font-size: large;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section textarea {
+
+    margin: 20px;
+    padding: 20px;
+
+    min-width: 25vw;
+
+    color: white;
+    background-color: rgba(0, 0, 0, 0.2);
+
+    border: solid 1px white;
+    border-radius: 20px;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div button {
+
+    cursor: pointer;
+
+    margin: 20px;
+    padding: 10px;
+
+    min-width: 25vw;
+
+    color: white;
+    background-color: rgba(0, 0, 0, 0.2);
+
+    border: solid 1px white;
+    border-radius: 20px;
+
+}
