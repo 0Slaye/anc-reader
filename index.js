@@ -1,7 +1,7 @@
 function generate() {
-    input = document.getElementById("input");
-    output = document.getElementById("output");
-    words = input.value.split(" ");
+    var input = document.getElementById("input");
+    var output = document.getElementById("output");
+    var words = input.textContent.split(" ");
 
     var result = "";
 
@@ -11,7 +11,7 @@ function generate() {
 
         for (var j = 0; j < words[i].length; j++) {
             if (count < length) {
-                result += words[i][j].toUpperCase();
+                result += words[i][j].bold();
                 count += 1;
             }
             else {
@@ -22,5 +22,11 @@ function generate() {
         result += " ";
     }
 
-    output.value = result;
+    output.innerHTML = result;
+}
+
+function changeTheme() {
+    var body = document.body;
+    body.classList.toggle("theme-light");
+    body.classList.toggle("theme-dark");
 }
