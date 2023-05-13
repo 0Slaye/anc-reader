@@ -5,32 +5,30 @@
 
         <title>ANC Reader</title>
 
-        <link rel="stylesheet" type="text/css" href="index.css" />
-        <script src="index.js"></script>
+        <link rel="stylesheet" type="text/css" href="CSS/index.css" />
+        <script src="Js/index.js"></script>
 
         <meta charset="UTF-8">
 
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
 
     </head>
 
-    <body>
+    <body class="theme-light">
         
         <header>
-
             <h2>ANC Reader</h2>
-
         </header>
 
         <section>
-            <textarea name="" id="input" cols="30" rows="10" placeholder="Your text here..."></textarea>
-            <textarea name="" id="output" cols="30" rows="10" placeholder="The result will be here." disabled></textarea>
+            <div id="input" contenteditable></div>
+            <div id="output"></div>
         </section>
 
-        <div>
-            <button onclick="generate()">Generate</button>
-        </div>
+        <footer>
+            <button id="generate" onclick="generate()">Generate</button>
+            <button id="theme" onclick="changeTheme()">Switch theme</button>
+        </footer>
 
     </body>
 
