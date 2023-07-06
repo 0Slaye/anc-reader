@@ -1,4 +1,4 @@
-function generate() {
+function Generate() {
     var input = document.getElementById("input");
     var output = document.getElementById("output");
     var words = input.textContent.split(" ");
@@ -25,7 +25,7 @@ function generate() {
     output.innerHTML = result;
 }
 
-function changeTheme() {
+function ChangeTheme() {
     var body = document.body;
     body.classList.toggle("theme-light");
     body.classList.toggle("theme-dark");

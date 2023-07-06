@@ -21,13 +21,12 @@
         </header>
 
         <section>
-            <div id="input" contenteditable></div>
+            <div id="input" contenteditable="true" oninput="Generate()"></div>
             <div id="output"></div>
         </section>
 
         <footer>
-            <button id="generate" onclick="generate()">Generate</button>
-            <button id="theme" onclick="changeTheme()">Switch theme</button>
+            <button id="theme" onclick="ChangeTheme()">Switch theme</button>
         </footer>
 
     </body>
