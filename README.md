@@ -13,6 +13,7 @@ Hi! Welcome on anc-reader. This website is my attempt to recreate the "Bionic re
 ## Resources
 
 [anc-reader](https://0slaye.github.io/anc-reader/)
+</br>
 [bionic-reading.com](https://bionic-reading.com/)
 
 ## License
