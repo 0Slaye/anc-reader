@@ -10,8 +10,6 @@ Hi! Welcome on anc-reader. This website is my attempt to recreate the "Bionic re
 > reading, Bionic Reading aims to encourage a more in-depth reading and understanding of written
 > content."*
 
-![Screenshot](assets/screenshot.png)
-
 ## Resources
 
 [bionic-reading.com](https://bionic-reading.com/)
