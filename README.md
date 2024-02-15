@@ -18,4 +18,4 @@ Hi! Welcome on anc-reader. This website is my attempt to recreate the "Bionic re
 
 ## License
 
-[CC0](https://choosealicense.com/licenses/cc0/)
+[MIT](https://choosealicense.com/licenses/cc0/)
